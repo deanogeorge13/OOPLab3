@@ -48,7 +48,7 @@ public class Book {
     }
 
     public Book(String title, double price, String ISBN, int noOfPages){
-        //setTitle();
+        setTitle();
     }
 
 }
