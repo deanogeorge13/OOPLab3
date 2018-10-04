@@ -37,10 +37,10 @@ public class Book {
     }
 
     public String toString(){
-        return "Title: " + title + "\nPrice: " + price + ....;
+        return "Title: " + title + "\nPrice: " + price + "\nISBN: " + ISBN + "\nNum Of Pages: " + noOfPages;
     }
 
-    public Book{
+    public Book(){
         title = "No Title";
         price = 0.00;
         ISBN = "No ISBN";
@@ -48,7 +48,10 @@ public class Book {
     }
 
     public Book(String title, double price, String ISBN, int noOfPages){
-        setTitle();
+        this.title = title;
+        this.price = price;
+        this.ISBN = ISBN;
+        this.noOfPages = noOfPages;
     }
 
 }
