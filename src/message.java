@@ -24,4 +24,9 @@ public class message {
     {
         this.text = text;
     }
+
+    public String toString()
+    {
+        return "From: " + sender + "\nTo: " + recipient + "\n" + text;
+    }
 }
